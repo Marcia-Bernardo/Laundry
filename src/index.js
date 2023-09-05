@@ -5,6 +5,7 @@ import Homepage from "././pages/Homepage";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NavWrapper from "./components/structure/NavbarWrapper";
+import MachineListPage from "./pages/MachineListPage";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Homepage />,
+      },
+      {
+        path: "/listMachine",
+        element: <MachineListPage />,
       },
     ],
   },

@@ -23,12 +23,12 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/listMachine">
                   List machines
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" href="">
                   Add credit
                 </Link>
               </li>
