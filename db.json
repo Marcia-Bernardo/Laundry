@@ -1,0 +1,39 @@
+{
+  "machines": [
+    {
+      "id": 0,
+      "kind": "washing machine",
+      "weight": "3 kg",
+      "time": 40,
+      "price": 2.5
+    },
+    {
+      "id": 1,
+      "kind": "dry machine",
+      "weight": "3 kg",
+      "time": 40,
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "kind": "dry machine",
+      "weight": "6 kg",
+      "time": 40,
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "kind": "dry machine",
+      "weight": "3 kg",
+      "time": 40,
+      "price": 2.5
+    },
+    {
+      "id": 4,
+      "kind": "dry machine",
+      "weight": "6kg",
+      "time": 40,
+      "price": 2.5
+    }
+  ]
+}
