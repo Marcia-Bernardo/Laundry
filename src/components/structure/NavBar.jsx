@@ -28,7 +28,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="">
+                <Link className="nav-link" to="/balance">
                   Add credit
                 </Link>
               </li>

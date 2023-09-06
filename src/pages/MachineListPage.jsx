@@ -50,7 +50,6 @@ const MachineListPage = () => {
             <div className="m-3">
               <h2>Washing Machine</h2>
             </div>
-
             <MachineList machines={washingMachines} />
           </div>
           <div className="col">
