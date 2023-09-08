@@ -1,7 +1,7 @@
 import React from "react";
 import MachineCard from "./MachineCard";
 
-const MachineList = ({ machines }) => {
+const MachineList = ({ machines, updateStatus, statusMachine }) => {
   return (
     <>
       <div
@@ -9,7 +9,11 @@ const MachineList = ({ machines }) => {
         style={{ width: "20rem" }}
       >
         {machines.map((machine) => (
-          <MachineCard machine={machine} />
+          <MachineCard
+            machine={machine}
+            updateStatus={updateStatus}
+            state={statusMachine}
+          />
         ))}
       </div>
     </>

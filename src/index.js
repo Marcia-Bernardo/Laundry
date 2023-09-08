@@ -5,8 +5,8 @@ import Homepage from "./pages/Homepage";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import NavWrapper from "./components/structure/NavbarWrapper";
-import MachineListPage from "./pages/MachineListPage";
-import UserPage from "./pages/UserPage";
+import ChosenMachine from "./components/ChosenMachine";
+import ManagerPage from "./pages/ManagerPage";
 
 const router = createBrowserRouter([
   {
@@ -17,17 +17,14 @@ const router = createBrowserRouter([
         index: true,
         element: <Homepage />,
       },
+
       {
         path: "/listMachine",
-        element: <MachineListPage />,
+        element: <ManagerPage showPage="list" />,
       },
       {
-        path: "/listMachine",
-        element: <MachineListPage />,
-      },
-      {
-        path: "/balance",
-        element: <UserPage />,
+        path: "/user",
+        element: <ManagerPage showPage="balance" />,
       },
     ],
   },

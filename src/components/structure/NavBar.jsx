@@ -24,12 +24,12 @@ const NavBar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link" to="/listMachine">
-                  List machines
+                  List machines free
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/balance">
-                  Add credit
+                <Link className="nav-link" to="/user">
+                  User
                 </Link>
               </li>
               <li className="nav-item dropdown"></li>
